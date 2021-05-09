@@ -1,0 +1,5 @@
+Method,Name,Error,Occurrences
+GET,/,"('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",50
+GET,/,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response',))",50
+GET,/,500 Server Error: Internal Server Error for url: http://ito-k3s-worker2:31568/,59
+GET,/,"HTTPConnectionPool(host='ito-k3s-worker2', port=31568): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fefb9556828>: Failed to establish a new connection: [Errno 111] Connection refused',))",60

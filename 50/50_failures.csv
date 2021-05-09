@@ -1,0 +1,2 @@
+Method,Name,Error,Occurrences
+GET,/,500 Server Error: Internal Server Error for url: http://ito-k3s-worker2:32006/,4
